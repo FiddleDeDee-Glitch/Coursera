@@ -1,28 +1,15 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-.text { font-family: Arial, Helvetica, sans-serif }
 
 h1 {
-    margin-bottom: 45px;
-    text-align: center;
-}
-
-.title {
-  border: 2px solid black;
-  width: 160px;
-  font-weight: bold;
-  position: absolute;
-  right: 0;
-  margin-top: 0;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 60px;  
 }
 
-.description {
-  padding: 45px 10px 5px 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.row {
+  width: 100%;
 }
 
 div.section {
@@ -30,6 +17,23 @@ div.section {
   border: 3px solid black;
   position: relative;
   margin: 10px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  width: 160px;
+  position: absolute;
+  right: 0;
+  margin-top: 0;
+
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px 10px 5px 10px;
 }
 
 #chicken {
@@ -43,10 +47,6 @@ div.section {
 
 #sushi {
   background-color: #e4d097;
-}
-
-.row {
-    width: 100%;
 }
 
 @media (min-width: 992px) {
