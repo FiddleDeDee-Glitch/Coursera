@@ -15,7 +15,7 @@ h1 {
 
 div.section {
   background: gray;
-  border: 3px solid black;
+  border: 1px solid black;
   position: relative;
   margin: 10px;
 }
@@ -25,7 +25,7 @@ div.section {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 125%;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 160px;
   position: absolute;
   right: 0;
